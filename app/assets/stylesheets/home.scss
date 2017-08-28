@@ -1,0 +1,47 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+[class*="col-"]{
+	border-radius: 5px;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.menu-content{
+	padding:15px;
+	box-shadow: 1px 1px 12px #555;
+}
+
+.button-display {
+	display:flex;
+	//flex-flow: row wrap;
+	justify-content: center;
+	.button {
+		margin: 10px;
+		width: 150px;
+		padding:10px;
+		height: 45px;
+		border: 1px solid black;
+		border-radius: 5px;
+	}
+}
+
+.col-lg-2{
+	margin:10px;
+}
+
+.choice {
+	height:auto;
+}
+
+.food {
+	text-align:left;
+}
+.price {
+	text-align:left;
+}
